@@ -1,14 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <title>Contáctanos</title>
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+        <h1>¡Contáctanos!</h1>
+        <p>¿Tienes alguna pregunta,sugerencia o simplemente quieres compartir tus experiencias con nuestros deliciosos productos? ¡Escríbenos, estamos aquí para escucharte!.</p>
+    </header>
+
+    <main>
+        <form action="#" method="post">
+            <label for="nombre">Tu nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            <br><br>
+
+            <label for="email">Tu email:</label>
+            <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+            <br><br>
+
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" name="asunto" placeholder="El asunto de tu mensaje" required>
+            <br><br>
+
+            <label for="mensaje">Tu mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí" required></textarea>
+            <br><br>
+
+            <label>
+                <input type="checkbox" id="acepto" name="acepto" required>
+                Acepto las <a href="#">políticas de privacidad</a> y los <a href="#">términos y condiciones</a>.
+            </label>
+            <br><br>
+
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© GelatoCrazy- Todos los derechos reservados.</p>
+    </footer>
 </body>
+</html>
+
 </html>
