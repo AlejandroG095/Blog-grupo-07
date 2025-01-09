@@ -5,21 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contáctanos</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
     <header>
         <div>
             <div>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="about.html">Quiénes somos</a></li>
-                        <li><a href="contact.html">Contacto</a></li>
+                <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+                    <!-- Links -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="about.html">quiénes somos</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contacto</a>
+                        </li>
                     </ul>
                 </nav>
             </div>                                  
         </div>            
     </header>
+
 
     <h1>¡Contáctanos!</h1>
     <p>¿Tienes alguna pregunta,sugerencia o simplemente quieres compartir tus experiencias con nuestros deliciosos productos? ¡Escríbenos, estamos aquí para escucharte!.</p>
@@ -49,7 +58,7 @@
             </label>
             <br><br>
 
-            <button type="submit">Enviar mensaje</button>
+            <button onclick="alert('¡Mensaje enviado!')" type="submit">Enviar mensaje</button>
         </form>
     </main>
 
@@ -83,6 +92,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
 

@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fdfdfd;
+    background-color: #FFE996;
     color: #333;
     line-height: 1.6;
 }
@@ -13,6 +13,7 @@ img {
     border-radius: 8px;
 }
 
+
 .imagenJames {  
     width: 60%;
     height: auto;
@@ -21,8 +22,16 @@ img {
 
 /* Header Styles */
 header {
-    background-color: #222;
+    background-color: #FEA3C2;
     padding: 10px 0;
+}
+ .navbar{
+    background-color: #FEA3C2;
+}
+
+.video-container {
+    display: fixed;
+    width: 100%;
 }
 
 header nav ul {
@@ -45,7 +54,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #ffcc00;
+    color: #F29199;
 }
 
 /* Hero Image */
@@ -64,7 +73,7 @@ section {
 section h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #222;
+    color: #FEA3C2;
 }
 
 section p {
@@ -81,8 +90,8 @@ section > div > div {
 }
 
 section > div > div > div {
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #E2BEEA;
+    box-shadow: 0 4px 8px #FFE996;
     border-radius: 8px;
     overflow: hidden;
     max-width: 300px;
@@ -97,7 +106,7 @@ section > div > div > div:hover {
 
 section > div > div > div h4 {
     margin: 10px 0;
-    color: #222;
+    color: #FEA3C2;
 }
 
 section > div > div > div p {
@@ -107,7 +116,7 @@ section > div > div > div p {
 
 /* Footer */
 footer {
-    background-color: #222;
+    background-color: #FEA3C2;
     color: #f4f4f4;
     padding: 20px 15px;
     text-align: center;
@@ -135,9 +144,80 @@ footer .rounded-social-buttons {
     margin-top: 15px;
 }
 
-/* Sección Contáctenos */ main { max-width: 600px; margin: 20px auto; padding: 20px; background: #ffffff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); } main h1 { text-align: center; font-size: 2rem; color: #333; margin-bottom: 10px; } main p { text-align: center; color: #666; margin-bottom: 20px; } form { display: flex; flex-direction: column; gap: 15px; } form label { font-weight: bold; color: #555; } form input[type="text"], form input[type="email"], form textarea { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; font-size: 16px; } form textarea { resize: vertical; height: 100px; } form input[type="checkbox"] { margin-right: 10px; } form label a { color: #007bff; text-decoration: none; } form label a:hover { text-decoration: underline; } form button { background: #28a745; color: white; border: none; padding: 10px 15px; border-radius: 5px; font-size: 16px; cursor: pointer; transition: background-color 0.3s ease; }
+/* Sección Contáctenos */
+main {
+	max-width: 600px;
+	margin: 20px auto;
+	padding: 20px;
+	background: #F29199;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
-form button:hover { background: #218838; }
+main h1 {
+	text-align: center;
+	font-size: 2rem;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+main p {
+	text-align: center;
+	color: #666;
+	margin-bottom: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+form label {
+	font-weight: bold;
+	color: #555;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+form textarea {
+	resize: vertical;
+	height: 100px;
+}
+
+form input[type="checkbox"] {
+	margin-right: 10px;
+}
+
+form label a {
+	color: #007bff;
+	text-decoration: none;
+}
+
+form label a:hover {
+	text-decoration: underline;
+}
+
+form button {
+	background: ##E2BEEA;
+	color: white;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+form button:hover { background: #B3F2C9; }
 
 footer .social-button {
     display: inline-block;
@@ -155,7 +235,7 @@ footer .social-button {
 }
 
 footer .social-button:hover {
-    background-color: #ffcc00;
+    background-color: #F29199;
 }
 
 /* Responsive Design */
